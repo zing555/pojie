@@ -3,7 +3,7 @@
 ####   以下内容由 伟人 制作 联系方式 QQ 55749353。禁止贩卖！禁止用于非法用途！请订阅后24小时内主动删除！作者不承担任何法律责任！！
 
 
-hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*
+hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan
 
 ######----常用软件脚本----######
 
@@ -44,3 +44,6 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 
 #汁乎视频🚗
 ^http[s]?:\/\/.+((wldfnjh)|(yieamnd)|(qkjuyet)|(pejyyah)).com\/api\/.+(/user/info|/login/guest|/play|/post/detail|ping/config).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/zh.js
+
+#有色视频🚗
+^http[s]?:\/\/.+((9aixuan)|(liuxiaoyan123)|(heyihongmu)|(901clo)).(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/yssp.js
