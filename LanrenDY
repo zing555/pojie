@@ -1,5 +1,5 @@
 #以下内容由 伟人 制作联系方式 QQ 55749353。禁止贩卖！禁止用于非法用途！请订阅后24小时内主动删除！作者不承担任何法律责任！！
-hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn
+hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.kuwo.cn
 
 ####常用软件脚本
 
@@ -19,3 +19,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn
 
 #知音漫客
 ^http[s]?:\/\/.+.zymk.+(getcomicinfo|getuserinfo|gift_givegifts|v5/addgold|getappadvertise).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/zymk.js
+
+#酷我音乐🎵
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=2
+^https?:\/\/.*kuwo.*(/AdService/kaiping/adinfo|/vip/v2/user/vip).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/kw.js
