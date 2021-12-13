@@ -3,7 +3,7 @@
 ####   以下内容由 伟人 制作 联系方式 QQ 55749353。禁止贩卖！禁止用于非法用途！请订阅后24小时内主动删除！作者不承担任何法律责任！！
 
 
-hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*
+hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*
 
 ######----常用软件脚本----######
 
@@ -50,3 +50,6 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 
 #雏鸟视频🚗
 ^https:\/\/api.v1.chuniao.vip/app/api/video/info url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/chuniao.js
+
+#汤头条🚗
+^http:\/\/.+tbrapi.+\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/ttt.js
