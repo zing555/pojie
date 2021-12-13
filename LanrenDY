@@ -31,7 +31,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 ^http[s]?:\/\/.+user/ios_store_pay_edition.+(check_members_identity_v2|get_member_info) url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/wfqw.js
 
 #漫番漫画解锁下载观看付费
-^http[s]?:\/\/(user|pay)\.myfcomic\.(com|cn)\/api\/(getuserinfo|pay/chapters).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/mfmh.js
+^http[s]?:\/\/(user|pay)\.myfcomic\.(com|cn)\/api\/(getuserinfo|pay/chapters|comic/getchapterlist).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/mfmh.js
 
 
 ###可能会继续增加###
