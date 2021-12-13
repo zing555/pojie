@@ -4,7 +4,7 @@
 QX:
 [rewrite_local]
 #漫番漫画下载
-^http[s]?:\/\/(user|pay)\.myfcomic\.(com|cn)\/api\/(getuserinfo|pay/chapters).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/mfmh.js
+^http[s]?:\/\/(user|pay)\.myfcomic\.(com|cn)\/api\/(getuserinfo|pay/chapters|comic/getchapterlist).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/mfmh.js
 
 [mitm]
 hostname = *myfcomic*
