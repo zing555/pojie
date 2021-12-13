@@ -5,8 +5,8 @@
 已解锁[所有av视频漫画图片等等，短视频和动漫暂时无解！！
 下载地址=https://www.pearor.live
 
-//雪梨🍐视频🚗
-http[s]?:\/\/.+(movie\/WatchMovieNew|Account\/CheckVip|movie/DetailInfo|/account/IndexDetail|/cartoon/DownLoadCartoon|/cartoon/LookPhoto|/movie/DetailInfo|PictureSet/LookPhoto|/account/Milk|account/suport|account/IsVip).*$ url script-response-body pear.js
+#雪梨🍐视频🚗
+^http[s]?:\/\/.+(movie\/WatchMovieNew|Account\/CheckVip|movie/DetailInfo|/account/IndexDetail|/cartoon/DownLoadCartoon|/cartoon/LookPhoto|/movie/DetailInfo|PictureSet/LookPhoto|/account/Milk|account/suport|account/IsVip).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/pear.js
 
 QX MITM = m.*c*
 
