@@ -4,7 +4,7 @@ Quantumult X 脚本:
 
 [rewrite_local]
 #悟饭趣玩|掌悦|酷玩盒
-^http[s]?:\/\/.+user/ios_store_pay_edition.+(check_members_identity_v2|get_member_info) url script-response-body wfqw.js
+^http[s]?:\/\/.+user/ios_store_pay_edition.+(check_members_identity_v2|get_member_info) url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/wfqw.js
 
 [mitm]
 hostname = iosv2.cjapi.papa21.com
