@@ -2,7 +2,7 @@
 作者伟人q55749353
 
 知音漫客
-^http[s]?:\/\/.+.zymk.+(getcomicinfo|getuserinfo|gift_givegifts|v5/addgold|getappadvertise).*$ url script-response-body zymk.js
+^http[s]?:\/\/.+.zymk.+(getcomicinfo|getuserinfo|gift_givegifts|v5/addgold|getappadvertise).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/zymk.js
 
 hostname = *.zymk.cn
 
