@@ -7,7 +7,7 @@
 
 
 雏鸟视频
-^https:\/\/api.v1.chuniao.vip/app/api/video/info url script-request-header chuniao.js
+^https:\/\/api.v1.chuniao.vip/app/api/video/info url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/chuniao.js
 
 
 QX MITM = *chuniao*
