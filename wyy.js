@@ -6,7 +6,7 @@
 
 #网易云解锁VIP
 
-^http[s]?:\/\/.+(player/url|playlist/).*$ url script-request-header wyy.js
+^http[s]?:\/\/.+(player/url|playlist/).*$ url script-request-header https://raw.githubusercontent.com/weigege008/Quantumultx-weiren/main/wyy.js
 
 [mitm]
 hostname = *music*
