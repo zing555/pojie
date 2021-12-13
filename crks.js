@@ -2,7 +2,7 @@
 成人快手
 作者伟人q55749353
 
-^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo - script-response-body crks.js
+^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo - script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/crks.js
 
 QX MITM = *ksapi*
 
