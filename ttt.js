@@ -1,7 +1,8 @@
 /*
+作者伟人q55749353
 汤头条会员
 
-^http:\/\/.+tbrapi.+\/api\.php\/api\/user\/userinfo
+^http:\/\/.+tbrapi.+\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/ttt.js
 
 QX MITM = *tbrapi*
 
