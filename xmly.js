@@ -8,7 +8,7 @@
 ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/weigege008/Quantumultx-weiren/main/xmly.js
 
 [mitm]
-hostname = ximalaya
+hostname = *ximalaya*
 
 */
 
