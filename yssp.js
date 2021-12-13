@@ -9,7 +9,7 @@ https://cofuaqnb.cn/index/Jump/index?agent_code=&invite_code=3297113
 
 [rewrite_local]
 
-^http[s]?:\/\/.+((9aixuan)|(liuxiaoyan123)|(heyihongmu)|(901clo)).(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body yssp.js
+^http[s]?:\/\/.+((9aixuan)|(liuxiaoyan123)|(heyihongmu)|(901clo)).(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/yssp.js
 
 [mitm]
 hostname= *tangnvshi*
