@@ -4,7 +4,7 @@
 //非凡精读&樊登讲书🔓
 ^http[s]?:\/\/.+dushu.+(v101/content|book/v100/info|/play/duration|/v100/index).*$ url request-body "token":"[^"]+ request-body "token":"20211116v3Y5aRgEzRqwhOtwURL
 //付费课程🔓
-^http[s]?:\/\/.+dushu.+(v101|v100|program/v100)\/(content|play/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType) url script-response-body https://raw.githubusercontent.com/weigege008/Quantumultx-weiren/main/fd.js
+^http[s]?:\/\/.+dushu.+(v101|v100|program/v100)\/(content|play/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType) url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/fd.js
 
 
 QX MITM = *dushu*
