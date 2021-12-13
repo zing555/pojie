@@ -8,7 +8,7 @@ Quantumult X 脚本:
 
 #酷我音乐🎵
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=2
-^https?:\/\/.*kuwo.*(/AdService/kaiping/adinfo|/vip/v2/user/vip).*$ url script-response-body kw.js
+^https?:\/\/.*kuwo.*(/AdService/kaiping/adinfo|/vip/v2/user/vip).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/kw.js
 
 MITM = vip1.kuwo.cn
 */
