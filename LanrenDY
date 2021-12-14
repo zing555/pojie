@@ -3,7 +3,7 @@
 ####   以下内容由 伟人 制作 联系方式 QQ 55749353。禁止贩卖！禁止用于非法用途！请订阅后24小时内主动删除！作者不承担任何法律责任！！
 
 
-hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*
+hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*
 
 ######----常用软件脚本----######
 
@@ -33,6 +33,9 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 #漫番漫画解锁下载观看付费
 ^http[s]?:\/\/(user|pay)\.myfcomic\.(com|cn)\/api\/(getuserinfo|pay/chapters|comic/getchapterlist).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/mfmh.js
 
+#有书
+
+^http[s]?:\/\/.+youshu.+(userinfo/get|user/count|common/elite_page_content|m/page/v2|subpage_pack_list).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/youshu.js
 
 ###可能会继续增加###
   ///////
