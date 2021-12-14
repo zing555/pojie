@@ -6,7 +6,7 @@
 
 全民幸福社
 
-^http:\/\/api\.qmxfs\.com\/v003/user\/queryAccountInfo\.json url script-response-body qmxfs.js
+^http:\/\/api\.qmxfs\.com\/v003/user\/queryAccountInfo\.json url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/qmxfs.js
 ^http:\/\/api\.qmxfs\.com\/v003\/subject\/subjectDetail\.json url request-body "isBuy":[0-9] request-body "isBuy":1
 
 [mitm]
