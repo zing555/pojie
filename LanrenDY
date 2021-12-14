@@ -69,4 +69,4 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 ^http:\/\/.+tbrapi.+\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/ttt.js
 
 #成人快手🚗
-^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo - script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/crks.js
+^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/crks.js
