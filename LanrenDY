@@ -70,6 +70,3 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 
 #成人快手🚗
 ^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/crks.js
-
-
-shadowsocks = music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag=网易云解锁灰色节点
