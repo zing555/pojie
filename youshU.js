@@ -4,7 +4,7 @@
 [rewrite_local]
 
 #有书
-^http[s]?:\/\/.+youshu.+/m/media/media_info
+^http[s]?:\/\/.+youshu.+(media/media_info|item/getItemInfo).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/youshU.js
 
 [mitm]
 hostname = *youshu*
