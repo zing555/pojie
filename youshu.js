@@ -2,7 +2,7 @@
 作者伟人q55749353
 
 
-^http[s]?:\/\/.+youshu.+(m/userinfo/get|/m/user/count|common/elite_page_content|/mp/item/subpage_pack_list) url script-response-body fd.js
+^http[s]?:\/\/.+youshu.+(userinfo/get|user/count|common/elite_page_content|m/page/v2|subpage_pack_list).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/youshu.js
 
 
 QX MITM = *youshu*
