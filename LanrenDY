@@ -34,8 +34,11 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 ^http[s]?:\/\/(user|pay)\.myfcomic\.(com|cn)\/api\/(getuserinfo|pay/chapters|comic/getchapterlist).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/mfmh.js
 
 #有书
-
+^http[s]?:\/\/.+youshu.+(media/media_info|item/getItemInfo).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/youshU.js
 ^http[s]?:\/\/.+youshu.+(userinfo/get|user/count|common/elite_page_content|m/page/v2|subpage_pack_list).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/youshu.js
+
+
+
 
 ###可能会继续增加###
   ///////
