@@ -16,7 +16,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 
 #网易云音乐解锁vip
 
-shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag
+shadowsocks = music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false,
 ^http[s]?:\/\/.+(player/url|playlist/).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/wyy.js
 
 #喜马拉雅VIP
