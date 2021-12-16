@@ -3,7 +3,7 @@
 ####   以下内容由 伟人 制作 联系方式 QQ 55749353。禁止贩卖！禁止用于非法用途！请订阅后24小时内主动删除！作者不承担任何法律责任！！
 
 
-hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*
+hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*,123.57.195.48
 
 ######----常用学习软件脚本----######
 
@@ -45,7 +45,8 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 ^https:\/\/.+keep.+/gerudo/v2/liveCourse/.+/details.*$ url response-body "userMemberStatus":\w+ response-body "userMemberStatus":true
 ^http[s]?:\/\/.+keep.+(liveStream/schedule|start|preview|athena/v5/people/my|ad/preload).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/keep.js
 
-
+#答岸
+^http[s]?:\/\/.*\/api\/(Usercenter\/getUserInfo|/teacher/getTeacherDetailInfo).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/Daan.js
 
        ///////
 ###可能会继续增加###
