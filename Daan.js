@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/.*\/api\/(Usercenter\/getUserInfo|/teacher/getTeacherDetailInfo).*$ url script-response-body Daan.js
+^http[s]?:\/\/.*\/api\/(Usercenter\/getUserInfo|/teacher/getTeacherDetailInfo).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/Daan.js
 
 [mitm]
 hostname= 123.57.195.48
