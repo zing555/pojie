@@ -9,10 +9,10 @@ keep
 
 ^https:\/\/.+keep.+/gerudo/v2/liveCourse/.+/details.*$ url response-body "userMemberStatus":\w+ response-body "userMemberStatus":true
 
-^http[s]?:\/\/.+keep.+(liveStream/schedule|start|preview|athena/v5/people/my|ad/preload).*$ url script-response-body keep.js
+^http[s]?:\/\/.+keep.+(liveStream/schedule|start|preview|athena/v5/people/my|ad/preload).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/keep.js
 
 
-QX MITM = *dushu*
+QX MITM = *keep*
 
 */
 
