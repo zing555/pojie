@@ -46,7 +46,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 ^http[s]?:\/\/.+keep.+(liveStream/schedule|start|preview|athena/v5/people/my|ad/preload).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/keep.js
 
 #答岸
-^http[s]?:\/\/.*\/api\/(Usercenter\/getUserInfo|/teacher/getTeacherDetailInfo).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/Daan.js
+^ ^http[s]?:\/\/.+api.+(getUserInfo|TeacherDetailInfo).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/Daan.js
 
        ///////
 ###可能会继续增加###
