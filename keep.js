@@ -4,7 +4,7 @@
 
 解锁部分会员课程，直播课程全解锁
 
-keep
+keep解锁
 
 
 ^https:\/\/.+keep.+/gerudo/v2/liveCourse/.+/details.*$ url response-body "userMemberStatus":\w+ response-body "userMemberStatus":true
