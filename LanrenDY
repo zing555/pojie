@@ -20,6 +20,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 
 #喜马拉雅VIP
 ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/xmly.js
+^https:\/\/mobile\.ximalaya\.com\/mobile-user\/v2\/homePage.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/ximalaya.js
 
 #知音漫客
 ^http[s]?:\/\/.+.zymk.+(getcomicinfo|getuserinfo|gift_givegifts|v5/addgold|getappadvertise).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/zymk.js
