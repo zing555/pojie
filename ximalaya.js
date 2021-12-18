@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-^https:\/\/mobile\.ximalaya\.com\/mobile-user\/v2\/homePage.*$ url script-response-body ximalaya.js
+^https:\/\/mobile\.ximalaya\.com\/mobile-user\/v2\/homePage.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/ximalaya.js
 
 [mitm]
 hostname= *xima*
