@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-^https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine.*$ url script-response-body bilibili.js
+^https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/bilibili.js
 
 [mitm]
 hostname= *.biliapi.*, *.bilibili.*
